@@ -1,0 +1,6 @@
+msg_id,app_protocol,src_app,dst_app,src_port,dst_port,message,timestamp
+1,HTTP,browser,server,54321,80,GET /index.html HTTP/1.1,10.1
+2,HTTP,server,browser,80,54321,HTTP/1.1 200 OK,10.2
+3,FTP,client,server,54322,21,USER admin,12.5
+4,FTP,server,client,21,54322,331 Password required,12.6
+5,CHAT,Moshe,David,5555,5555,MSG|David|Hello Network,15
